@@ -5,12 +5,13 @@ This library is a fork of the original one DMD32 https://github.com/Qudor-Engine
 
 The connection between ESP32 and display configure in DMD32.h file:
 
-HUB12  ESP32
-OE      D19
-A       D16
-B       D17
-CLK     D18
-LAT     D4
-DR      D23
+| HUB12| ESP32 |
+|------|-------|
+| OE   |  D19  |
+| A    |  D16  |
+| B    |  D17  |
+| CLK  |  D18  |
+| LAT  |  D4   |
+| DR   |  D23  |
 
 Use Arduino core for the esp32 by Espressif Systems v.2.0.2 or earlier.
