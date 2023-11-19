@@ -1,7 +1,7 @@
 # DMD32
 A library for driving the 512 pixel dot matrix LED display, a 32 x 16 layout using ESP32 Lite V1.0.0 https://aliexpress.ru/item/33009178296.html.
 
-This library is a fork of the original one https://github.com/Qudor-Engineer/DMD32.
+This library is a fork of the original one DMD32 https://github.com/Qudor-Engineer/DMD32.
 
 The connection between ESP32 and display configure in DMD32.h file:
 
