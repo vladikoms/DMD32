@@ -13,4 +13,4 @@ CLK     D18
 LAT     D4
 DR      D23
 
-Arduino plattform core esp32 by Espressif Systems v.2.0.2 or earlier.
+Use Arduino core for the esp32 by Espressif Systems v.2.0.2 or earlier.
