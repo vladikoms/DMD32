@@ -1,22 +1,16 @@
 # DMD32
-A library for driving the Freetronics 512 pixel dot matrix LED display "DMD", a 32 x 16 layout using ESP32.
+A library for driving the 512 pixel dot matrix LED display, a 32 x 16 layout using ESP32 Lite V1.0.0 https://aliexpress.ru/item/33009178296.html.
 
-This library is a fork of the original one [(DMD)](https://github.com/freetronics/DMD) modified to support ESP32 (currently it is only working on ESP32).
+This library is a fork of the original one https://github.com/Qudor-Engineer/DMD32.
 
-The connection between ESP32 and DMD display shown in the image below:
+The connection between ESP32 and display configure in DMD32.h file:
 
+HUB12  ESP32
+OE      D19
+A       D16
+B       D17
+CLK     D18
+LAT     D4
+DR      D23
 
-
-
-
-
-![](https://github.com/Qudor-Engineer/DMD32/blob/main/connection.png)
-
-
-
-I changed the SPI to VSPI and used ESP32 hardware timer and more miner modifications.
-
-#Unfortunately, this library is no longer maintained. If you face any problem you can fork it to do your modification.
-
-Khudhur Alfarhan 
-
+Arduino plattform core esp32 by Espressif Systems v.2.0.2 or earlier.
